@@ -39,7 +39,7 @@ O **front-end** se comunica com a API do projeto por meio de requisições **HTT
 
 ### 1️⃣ Clonar o repositório
 ```bash
-git clone https://github.com/seu-usuario/chef-norte-am.git
+git clone https:https://github.com/sabrinafrazao/ChefNorteAM.git
 cd ChefNorteAM
 ```
 
