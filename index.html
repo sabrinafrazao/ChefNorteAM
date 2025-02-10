@@ -8,18 +8,27 @@
  
 </head>
 <body>
+    <!-- Contêiner principal do chat -->
     <div class="chat-container">
+  
         <div class="chat-header">ChefNorteAM - Seu Guia de Receitas Amazônicas</div>
+        
+        <!-- Área onde as mensagens do chat serão exibidas -->
         <div class="chat-box" id="chatBox"></div>
+
+        <!-- Área de entrada de texto do usuário -->
         <div class="chat-input">
             <input type="text" id="userInput" placeholder="Digite sua solicitação...">
+            <!-- Botão para enviar a mensagem -->
             <button onclick="enviarMensagem()"> 
                  <img src="src/iconSend.png" alt="Enviar" style="width: 25px; height: 25px;">
             </button>
+            <!-- Botão para reiniciar o chat -->
             <button id="reiniciarChat" onclick="reiniciarChat()">Reiniciar Chat</button>
         </div>
     </div>
    
+    <!-- Importa o arquivo JavaScript para adicionar funcionalidade ao chat -->
     <script src="script.js"></script>
 </body>
 </html>
